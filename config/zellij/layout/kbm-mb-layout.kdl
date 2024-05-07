@@ -1,0 +1,29 @@
+layout {
+  default_tab_template {
+    children
+      pane size=1 borderless=true {
+        plugin location="zellij:tab-bar"
+      }
+  }
+  cwd "/home/mb/Git"
+    tab cwd="mb-proto" name="proto" split_direction="vertical" {
+      pane name="proto"
+    }
+    tab cwd="mb-proto-ext0" name="ext-0" split_direction="vertical" {
+      pane name="ext-0"
+    }
+    tab cwd="imock" name="imock" split_direction="vertical" {
+      pane name="imock"
+      pane split_direction="vertical" {
+        pane name="FSP" command="bash"{
+          args "-c" "npm run FSP"
+        }
+        pane cwd="../mb-proto" name="proto" command="bash" {
+          args "-c" "npm install && npm start"
+        }
+      }
+    }
+    tab cwd="~" name="~" split_direction="vertical" {
+      pane name="~"
+    }
+}

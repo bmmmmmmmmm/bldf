@@ -77,7 +77,7 @@ theme "nordfox"
 // The name of the default layout to load on startup
 // Default: "default"
 //
-default_layout "mr-prjs-layout"
+default_layout "kbm-mb-layout"
 session_serialization false
 
 pane_frames true
@@ -141,7 +141,7 @@ pane_frames true
 
 // The folder in which Zellij will look for layouts
 //
-layout_dir "/home/bl/df/config/zellij/layout"
+layout_dir "/home/mb/df/config/zellij/layout"
 
 // The folder in which Zellij will look for themes
 //
