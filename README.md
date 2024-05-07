@@ -1,3 +1,8 @@
+```
+cd ../
+mv bldf df
+```
+
 # df
 my linux configuration file
 
