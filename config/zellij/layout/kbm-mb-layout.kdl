@@ -9,8 +9,8 @@ layout {
     tab cwd="mb-proto" name="proto" split_direction="vertical" {
       pane name="proto"
     }
-    tab cwd="mb-proto-ext0" name="ext-0" split_direction="vertical" {
-      pane name="ext-0"
+    tab cwd="mb-proto-ext0" name="ext0" split_direction="vertical" {
+      pane name="ext0"
     }
     tab cwd="imock" name="imock" split_direction="vertical" {
       pane name="imock"
@@ -20,6 +20,9 @@ layout {
         }
         pane cwd="../mb-proto" name="proto" command="bash" {
           args "-c" "npm install && npm start"
+        }
+        pane cwd="../mb-proto-ext0" name="ext0" command="bash" {
+          args "-c" "npm install && npm run dev-update-watch:proto"
         }
       }
     }
