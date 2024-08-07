@@ -21,9 +21,6 @@ layout {
         pane cwd="../mb-proto" name="proto" command="bash" {
           args "-c" "npm install && npm start"
         }
-        pane cwd="../mb-proto-ext0" name="ext0" command="bash" {
-          args "-c" "npm install && npm run dev-update-watch:proto"
-        }
       }
     }
     tab cwd="~" name="~" split_direction="vertical" {
