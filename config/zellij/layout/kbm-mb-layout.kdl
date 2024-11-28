@@ -9,9 +9,6 @@ layout {
     tab cwd="mb-proto" name="proto" split_direction="vertical" {
       pane name="proto"
     }
-    tab cwd="mb-proto-ext0" name="ext0" split_direction="vertical" {
-      pane name="ext0"
-    }
     tab cwd="imock" name="imock" split_direction="vertical" {
       pane name="imock"
       pane split_direction="vertical" {
@@ -22,6 +19,9 @@ layout {
           args "-c" "npm install && npm start"
         }
       }
+    }
+    tab cwd="/" name="mdgit" split_direction="vertical" {
+      pane name="mdgit"
     }
     tab cwd="~" name="~" split_direction="vertical" {
       pane name="~"
