@@ -23,6 +23,9 @@ layout {
     tab cwd="./" name="mdgit" split_direction="vertical" {
       pane name="mdgit"
     }
+    tab cwd="../pers" name="pers" split_direction="vertical" {
+      pane name="pers"
+    }
     tab cwd="~" name="~" split_direction="vertical" {
       pane name="~"
     }
