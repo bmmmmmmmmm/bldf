@@ -20,7 +20,7 @@ layout {
         }
       }
     }
-    tab cwd="/" name="mdgit" split_direction="vertical" {
+    tab cwd="./" name="mdgit" split_direction="vertical" {
       pane name="mdgit"
     }
     tab cwd="~" name="~" split_direction="vertical" {
