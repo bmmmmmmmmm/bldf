@@ -6,9 +6,6 @@ layout {
       }
   }
   cwd "/home/mb/Git"
-    tab cwd="mb-proto" name="proto" split_direction="vertical" {
-      pane name="proto"
-    }
     tab cwd="imock" name="imock" split_direction="vertical" {
       pane name="imock"
       pane split_direction="vertical" {
@@ -19,6 +16,9 @@ layout {
           args "-c" "npm install && npm start"
         }
       }
+    }
+    tab cwd="mb-proto" name="proto" split_direction="vertical" {
+      pane name="proto"
     }
     tab cwd="./" name="mdgit" split_direction="vertical" {
       pane name="mdgit"
